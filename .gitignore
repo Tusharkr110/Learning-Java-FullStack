@@ -16,6 +16,8 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
+
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -31,3 +33,5 @@ bin/
 
 /.idea
 first-java.iml
+
+src/basics/abc.txt

@@ -1,4 +1,4 @@
-package basics;
+package basics.Interface;
 
 public class interfaceCallingSuperMethod {
     public static void main(String[] args) {
