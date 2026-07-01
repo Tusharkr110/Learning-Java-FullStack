@@ -29,20 +29,6 @@ public class ExampleOfFunctionFunctional {
         formatterConsumer.accept("C Basics",Math.random()*199);
         formatterConsumer.accept("C++ Basics",Math.random()*199);
 
-        List<String> items = Arrays.asList("Apple","Banana","Orange","Mango");
-        Stream<String> stream1 = items.stream();
-
-        stream1.forEach((item)-> System.out.println(item));
-
-        Stream<String> stream2 = items.stream();
-        Stream<String> fil = stream2.filter(name-> name.startsWith("B"));
-        fil.forEach((ints)-> System.out.println(ints));
-
-
-        Iterator<String > it = items.iterator();
-        while(it.hasNext())
-            System.out.println(it.next());
-
 
 
 
